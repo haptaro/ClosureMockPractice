@@ -14,6 +14,9 @@
 		DB677CC22884DAF9006B9C93 /* ClosureMockPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB677CC12884DAF9006B9C93 /* ClosureMockPracticeTests.swift */; };
 		DB677CCC2884DAF9006B9C93 /* ClosureMockPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB677CCB2884DAF9006B9C93 /* ClosureMockPracticeUITests.swift */; };
 		DB677CCE2884DAF9006B9C93 /* ClosureMockPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB677CCD2884DAF9006B9C93 /* ClosureMockPracticeUITestsLaunchTests.swift */; };
+		DB677CDB2884DBA0006B9C93 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB677CDA2884DBA0006B9C93 /* APIClient.swift */; };
+		DB677CDE2884DF3A006B9C93 /* ViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB677CDD2884DF3A006B9C93 /* ViewStates.swift */; };
+		DB677CE02884E01E006B9C93 /* ViewStatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB677CDF2884E01E006B9C93 /* ViewStatesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		DB677CC72884DAF9006B9C93 /* ClosureMockPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClosureMockPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB677CCB2884DAF9006B9C93 /* ClosureMockPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureMockPracticeUITests.swift; sourceTree = "<group>"; };
 		DB677CCD2884DAF9006B9C93 /* ClosureMockPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureMockPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB677CDA2884DBA0006B9C93 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		DB677CDC2884DECF006B9C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DB677CDD2884DF3A006B9C93 /* ViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStates.swift; sourceTree = "<group>"; };
+		DB677CDF2884E01E006B9C93 /* ViewStatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStatesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +101,11 @@
 		DB677CAF2884DAF5006B9C93 /* ClosureMockPractice */ = {
 			isa = PBXGroup;
 			children = (
+				DB677CDC2884DECF006B9C93 /* Info.plist */,
 				DB677CB02884DAF5006B9C93 /* ClosureMockPracticeApp.swift */,
 				DB677CB22884DAF5006B9C93 /* ContentView.swift */,
+				DB677CDD2884DF3A006B9C93 /* ViewStates.swift */,
+				DB677CDA2884DBA0006B9C93 /* APIClient.swift */,
 				DB677CB42884DAF9006B9C93 /* Assets.xcassets */,
 				DB677CB62884DAF9006B9C93 /* Preview Content */,
 			);
@@ -114,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				DB677CC12884DAF9006B9C93 /* ClosureMockPracticeTests.swift */,
+				DB677CDF2884E01E006B9C93 /* ViewStatesTests.swift */,
 			);
 			path = ClosureMockPracticeTests;
 			sourceTree = "<group>";
@@ -259,6 +270,8 @@
 			files = (
 				DB677CB32884DAF5006B9C93 /* ContentView.swift in Sources */,
 				DB677CB12884DAF5006B9C93 /* ClosureMockPracticeApp.swift in Sources */,
+				DB677CDE2884DF3A006B9C93 /* ViewStates.swift in Sources */,
+				DB677CDB2884DBA0006B9C93 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB677CE02884E01E006B9C93 /* ViewStatesTests.swift in Sources */,
 				DB677CC22884DAF9006B9C93 /* ClosureMockPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +434,7 @@
 				DEVELOPMENT_TEAM = 84557KRKBS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClosureMockPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +464,7 @@
 				DEVELOPMENT_TEAM = 84557KRKBS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClosureMockPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
